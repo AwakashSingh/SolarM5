@@ -1,0 +1,581 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.aks {
+    display: flex;
+    padding-top: 50px;
+    list-style-type: none;
+    gap: 30px;
+    margin-left: 60px;
+    font-size: large;
+}
+
+.aksin:hover {
+    color: chocolate;
+}
+
+.button1 {
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #f0c48a !important;
+    float: right;
+    margin-top: -40px;
+    gap: 10px;
+    font-size: large;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+
+}
+
+.pic1 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/aks.jpg);
+    background-size: cover;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.text1 {
+    font-size: xx-large;
+    font-weight: bold;
+    top: 240px;
+    font-weight: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.text2 {
+    color: #c69453;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+.hh2 {
+    line-height: 1;
+    font-size: 4.25rem;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.text3 {
+    margin-left: 130px;
+}
+
+.main3 {
+    position: relative;
+    display: flex;
+}
+
+.img {
+    position: absolute;
+    left: 120px;
+
+}
+
+.imge2 {
+    position: absolute;
+    top: 200px;
+    margin-left: 70px;
+}
+
+.main4 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.textin {
+    font-size: large;
+    font-weight: 300;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+
+.in1 {
+    color: #c69453;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    font-family: inter sans-serif;
+}
+
+.star {
+    font-size: 80px !important;
+    filter: invert(100%);
+}
+
+.star1 {
+    font-size: 80px;
+    filter: invert(100%);
+    transition: all .3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+
+}
+
+.star:hover {
+    font-size: 70px;
+}
+
+.in2 {
+    font-size: 3.375rem;
+    line-height: 1.1;
+    color: #222222;
+    font-family: inter sans-serif;
+    ;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.in3 {
+    color: #555555;
+}
+
+.textin1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.textin2 {
+    display: flex;
+    gap: 40px;
+
+}
+
+.set1 {
+    width: 70px;
+    height: 30px;
+    background-color: brown;
+}
+
+.set2 {
+    width: 70px;
+    height: 30px;
+    background-color: brown;
+}
+
+.color1 {
+    background-color: #a06e2c;
+    width: 100%;
+    height: 250px;
+    margin-top: 270px;
+    margin-bottom: 40px;
+}
+
+.pre1 {
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding-top: 100px;
+    font-size: large;
+
+}
+
+.last1 {
+    font-size: 60px;
+}
+
+.last2 {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    color: #99999999;
+    font-weight: 400;
+}
+
+.sks {
+    font-size: 90px;
+}
+
+.last {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imgin5 {
+    /* display: flex; */
+    /* gap: 40px; */
+    /* margin-left: 60px; */
+    /* margin-right: 40px; */
+}
+
+  .photo1 {
+    width: 100%;
+    height: 430px;
+}
+
+.photo2 {
+    width: 100%;
+    height: 430px;
+}
+
+.photo3 {
+    width: 100%;
+    height: 430px;
+} 
+.card{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 50px;
+    padding: 0px 50px;
+}
+.p1{
+    width: 33.4%;
+    height: 500px;
+}
+.p2{
+    width: 33.4%;
+    height: 500px;
+}
+.p3{
+    width: 33.4%;
+    height: 500px;
+}
+.lore1 {
+    color: #555555;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    padding-top: 10px;
+}
+
+.lore0 {
+    font-weight: bold;
+    font-size: 2.375;
+    line-height: 1.2;
+    color: #222222;
+    font-family: 'Inter', sans-serif;
+    padding-top: 20px;
+}
+
+.but1 {
+    width: 160px;
+    height: 50px;
+    background-color: chocolate;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+.but1:hover {
+    background-color: black;
+}
+
+.biku1 {
+    width: 100%;
+    height: 800px;
+    margin-top: 250px;
+}
+
+.biku2 {
+    color: white;
+    margin-left: 50px;
+    margin-top: -490px;
+    font-size: large;
+}
+
+.biku3 {
+    margin-bottom: 40px;
+    font-size: 60px;
+
+}
+
+.biku4 {
+    font-size: 30px;
+}
+
+.chdu1 {
+    background-image: url(../img/background7.jpg);
+    margin-top: 110px;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+}
+
+.chdu2 {
+    position: absolute;
+    margin-left: 40px;
+    padding-top: 110px;
+}
+
+.subh1 {
+    width: 140px;
+    height: 60px;
+    background-color: black;
+    color: chocolate;
+    font-size: large;
+    margin-top: 30px;
+}
+
+.chdu0 {
+    font-size: 60px;
+    font-weight: 320px;
+    margin-top: 10px;
+}
+
+.chdu3 {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 2rem;
+    /* border-radius: 0!important; */
+    /* border: #f0c48a !important; */
+}
+
+.input1 {
+    font-size: 1rem;
+}
+
+input {
+    width: 150px;
+    padding-left: 10px;
+}
+
+
+.texin5 {
+    width: 490px;
+    height: 130px;
+    /* gap: 40px; */
+    margin-top: 25px;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding: 20px;
+
+}
+
+.riti {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.ritiin {
+    line-height: 1.4;
+    font-size: 1.375rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.ritiin1 {
+    font-family: serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222222;
+    font-size: 1rem;
+}
+
+.riti0 {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 60px; */
+    justify-content: center;
+    /* margin-top: 30px;
+    margin-left: 50px; */
+}
+
+.riti1 {
+    width: 430px;
+    height: 550px;
+    padding: 30px;
+}
+
+.riti2 {
+    width: 430px;
+    height: 550px;
+    padding: 30px;
+}
+
+.riti3 {
+    width: 430px;
+    height: 550px;
+    padding: 30px;
+}
+.aboutmain{
+    width: 100%;
+    display: flex;
+    padding-top: 90px;
+}
+.about{
+    width: 50%;
+    padding-left: 60px;
+     font-size: 2.375;
+    line-height: 1.2;
+    color: #222222;
+    font-family: 'Inter', sans-serif;
+
+}
+.imgfe{
+    width: 50%;
+}
+
+.diki5 {
+    width: 600px;
+    height: 500px;
+}
+
+.diki1 {
+     color: #c69453;
+     padding-bottom: 20px;
+}
+
+.diki2 {
+    padding-bottom: 30px;
+
+}
+
+.diki3 {
+    width: 160px;
+    height: 50px;
+    background-color: #d88416;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+
+.diki3:hover {
+    background-color: #a06e2c;
+
+}
+
+
+
+.sher1 {
+    display: flex;
+    gap: 120px;
+    margin-left: 90px;
+    padding: 80px 0px;
+    flex-wrap: wrap;
+
+}
+
+.sher2 {
+    font-size: 3.125rem;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: sans-serif;
+    color: #F0C48A;
+    text-align: center;
+
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+/* lotop  */
+@media only screen and (max-width: 768px) {
+    .aks {
+        display: flex;
+        /* padding-top: 50px; */
+        list-style-type: none;
+        /* margin-left: 60px; */
+    }
+    
+    .pic1 {
+        width: 100%;
+        height: 500px;
+        opacity: 0.9;
+    }
+     .text1{
+        font-size:small;
+        text-align: center;
+    }
+      
+    
+    .img{
+        left: 0%;
+        width:768px;
+        position: relative;
+    }
+    .imge2{
+        position: relative;
+        display: none;
+    }
+    .main4{
+        display: block;
+    }
+    .textin{
+          margin-left: 30px;
+    }
+    .color1{
+        width: 100%;
+         margin-top: 60px; 
+    } 
+    
+.photo1 {
+    height: auto;
+}
+
+.photo2 {
+    height: 280px;
+}
+
+.photo3 {
+    height:280px;
+} 
+.diki5{
+    width: 250px;
+}
+.about{
+    margin-left: 0px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.imgin5{
+    width: 100%;
+    margin: 0%;
+    /* padding: 0px 25px; */
+    gap: 0px;
+
+}
+.riti0{
+    width: 50px;
+    justify-content: start;
+    gap: 5px;
+}    
+ .riti1{
+    width: 250px;
+ }  
+ .riti2{
+    width: 250px;
+ } 
+ .riti3{
+    width: 250px;
+ } 
+    
+   .biku1{
+    margin-top: 340px;
+
+   }
+    
+    
+
+}
